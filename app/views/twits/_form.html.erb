@@ -12,6 +12,14 @@
   <% end %>
 
 user: <%= current_user.email %>
+ <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :twit_id %><br>
+    <%= f.text_field :twit_id %>
+  </div>
   <div class="field">
     <%= f.label :twit %><br>
     <%= f.text_field :twit %>

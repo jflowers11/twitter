@@ -1,4 +1,17 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
+function convertSeconds(num_seconds){
+
+	alert(num_seconds);
+	// convert seconds to milliseconds
+	var date = new Date(num_seconds * 1000);
+
+	alert(date);
+	var d = new Date(num_seconds * 1000)
+
+	var formatted_date = (d.getMonth() + 1) + '/' + (d.getDate() + 1) + '/' + d.getFullYear();
+	
+	alert(formatted_date);
+}
+	// This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
 // Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
